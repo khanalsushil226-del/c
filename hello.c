@@ -1,5 +1,14 @@
 #include<stdio.h>
 int main() {
-    printf("Hello, World!\n");
+   int a,b;
+   printf("enter value of a \n");
+   scanf("%d", &a);
+   printf("enter the value of b \n");
+   scanf("%d", &b);
+
+
+   int sum = a+b;
+   printf("sum of a and b is  %d", sum);
+    
     return 0;
 }
